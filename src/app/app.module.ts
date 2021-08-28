@@ -19,7 +19,9 @@ import {HttpClientModule} from "@angular/common/http";
     LoggerModule.forRoot({ level: NgxLoggerLevel.DEBUG })
   ],
   providers: [
-
+    PersonService,
+    EnterpriseService,
+    VehicleService
   ],
   bootstrap: [AppComponent]
 })

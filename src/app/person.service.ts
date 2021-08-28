@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {API, APIProperties} from "./api.decorator";
 import {VehicleService} from "./vehicle.service";
 
-@Injectable({ providedIn: 'root' })
+@Injectable()
 @API()
 export class PersonService extends APIProperties {
   constructor(private vehicleService: VehicleService) {
